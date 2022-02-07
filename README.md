@@ -106,11 +106,11 @@ Please refer the power-point slide for [Demonstration](https://github.com/rakesh
 
 ## Contributing
 
-Rakesh Kumar (rakeshk6@cisco.com)
+Rakesh Kumar (rakeshchhikara@gmail.com)
 
 ## Authors
 
-Rakesh Kumar (rakeshk6@cisco.com)
+Rakesh Kumar (rakeshchhikara@gmail.com)
 
 ## License
 
