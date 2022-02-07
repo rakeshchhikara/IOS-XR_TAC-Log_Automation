@@ -1,0 +1,12 @@
+# IDE Related files
+.vscode/*
+.idea/
+
+# Virtual Environment files
+.venv/
+bin/
+lib/
+
+# Mac stuff
+.DS_Store
+*/.DS_Store
