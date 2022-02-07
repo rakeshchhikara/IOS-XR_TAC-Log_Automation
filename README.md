@@ -100,6 +100,10 @@ Additional notes
 	
 	- Once user has supplied all required 'show' commands, user need to hit enter again to execute the script.
 
+## Demo Document
+
+Please refer the power-point slide for [Demonstration](https://github.com/rakeshchhikara/IOS-XR_TAC-Log_Automation/blob/master/IOS-XR_TAC-Log_Automation.pptx) 
+
 ## Contributing
 
 Rakesh Kumar (rakeshk6@cisco.com)
@@ -110,5 +114,5 @@ Rakesh Kumar (rakeshk6@cisco.com)
 
 ## License
 
-Details should be found in a [LICENSE](https://wwwin-github.cisco.com/AIDE/ios-xr_logs_collection/blob/master/LICENSE) file
+Details should be found in a [LICENSE](https://github.com/rakeshchhikara/IOS-XR_TAC-Log_Automation/blob/master/README.md) file
 
