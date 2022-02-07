@@ -79,7 +79,7 @@ This script need to be run from Jump Server or local machine. It should met foll
 	- TAC requested ‘show tech commands’ or usual ‘show commands’
    
 
-This Script provides 5 user options to choose from:
+**This Script provides 5 user options to choose from:**
 
 
     * To run show tech commands in "IOS-XR mode" and upload file/s to TAC case Choose: 1
@@ -109,7 +109,6 @@ Rakesh Kumar (rakeshk6@cisco.com)
 Rakesh Kumar (rakeshk6@cisco.com)
 
 ## License
-
 
 Details should be found in a [LICENSE](https://wwwin-github.cisco.com/AIDE/ios-xr_logs_collection/blob/master/LICENSE) file
 
