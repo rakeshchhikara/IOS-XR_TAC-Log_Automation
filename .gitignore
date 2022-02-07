@@ -6,6 +6,7 @@
 .venv/
 bin/
 lib/
+venv/
 
 # Mac stuff
 .DS_Store
