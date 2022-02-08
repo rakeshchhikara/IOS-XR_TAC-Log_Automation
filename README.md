@@ -114,5 +114,5 @@ Rakesh Kumar (rakeshchhikara@gmail.com)
 
 ## License
 
-Details should be found in a [LICENSE](https://github.com/rakeshchhikara/IOS-XR_TAC-Log_Automation/blob/master/README.md) file
+Details should be found in a [LICENSE](https://github.com/rakeshchhikara/IOS-XR_TAC-Log_Automation/blob/master/LICENSE) file
 
