@@ -102,7 +102,7 @@ Additional notes
 
 ## Demo Document
 
-Please refer the power-point slide for [Demonstration](https://github.com/rakeshchhikara/IOS-XR_TAC-Log_Automation/blob/master/IOS-XR_TAC-Log_Automation.pptx) 
+Please refer the power-point slide for [Demonstration](https://github.com/rakeshchhikara/IOS-XR_TAC-Log_Automation/blob/master/Demostration.pptx) 
 
 ## Contributing
 
