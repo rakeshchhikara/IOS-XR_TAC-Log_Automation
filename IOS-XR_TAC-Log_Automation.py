@@ -409,6 +409,8 @@ elif get_choice == 4:
         f.write(bindata)
 
     local_files.append(compressed_fname)
+    os.remove(log_filename)
+
     print(f'File will be uploaded to case - {local_files}\nLocation path for local files stored: {log_directory}\n')
     connection.disconnect()
     print(f'Disconnected from device - {hostname}')
