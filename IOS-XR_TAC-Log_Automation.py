@@ -8,8 +8,7 @@
 # To upload existing file on Local machine/JumpHost to TAC case: 5
 
 # version 1.0
-
-
+import gzip
 import time
 import os
 from netmiko import ConnectHandler
@@ -392,7 +391,6 @@ elif get_choice == 4:
 
     time_str = time.strftime("-%d%m%Y-%H%M%S-")
     log_filename = hostname + time_str + 'logs.txt'
-    local_files.append(log_filename)
 
     with open(log_filename, 'w') as logs:
         for cmd in lines:
@@ -403,6 +401,14 @@ elif get_choice == 4:
             if '         ^' in output:
                 failed_list.append(cmd)
 
+    file = open(log_filename, "rb")
+    data = file.read()
+    bindata = bytearray(data)
+    compressed_fname = log_filename + ".gz"
+    with gzip.open(compressed_fname, "wb") as f:
+        f.write(bindata)
+
+    local_files.append(compressed_fname)
     print(f'File will be uploaded to case - {local_files}\nLocation path for local files stored: {log_directory}\n')
     connection.disconnect()
     print(f'Disconnected from device - {hostname}')
